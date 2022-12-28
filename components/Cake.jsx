@@ -16,6 +16,8 @@ const Cake = () => {
                 <p className='text-9xl text-white font-bold font-montserrat'>22</p>
                 <p className='font-white text-xl text-white font-montserrat mt-9 font-semibold'>Sayanggg 🤗💓💕</p>
 
+                <iframe src={show? '/hbd.mp3' : ''} allow="autoplay" type="audio/mp3" id="audio" className='bg-transparent w-full invisible'></iframe>
+
 
                 <div className='flex flex-col justify-center items-center text-white opacity-50 animate-bounce mt-8'>
                     <p>Scroll</p>

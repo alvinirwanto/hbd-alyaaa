@@ -232,7 +232,6 @@ const Foto = () => {
                         </li>
                     </ul>
                 </div>
-
                 <motion.p
                     variants={zoomIn(0.5, 0.5)}
                     initial='hidden'

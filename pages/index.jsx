@@ -1,3 +1,5 @@
+import { useEffect } from 'react'
+
 import Head from 'next/head'
 import Image from 'next/image'
 import Cake from '../components/Cake'
@@ -15,7 +17,7 @@ export default function Home() {
             </Head>
             <main className='bg-[#0f0f0f] '>
                 <HeroSection />
-                <Foto/>
+                <Foto />
                 <Cake />
             </main>
         </>
