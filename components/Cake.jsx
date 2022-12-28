@@ -11,7 +11,7 @@ const Cake = () => {
     return (
         <div className='h-full w-full flex flex-col items-center py-[5rem]'>
             <div className={show ? 'block text-center' : 'hidden'}>
-                <h2 className='font-hbd text-white text-5xl md:text-7xl'>Selamat Ulang Tahun</h2>
+                <h2 className='font-hbd text-white text-[3.3rem] md:text-7xl'>Selamat Ulang Tahun</h2>
                 <p className='font-white text-xl text-white font-montserrat'> - yang ke - </p>
                 <p className='text-9xl text-white font-bold font-montserrat'>22</p>
                 <p className='font-white text-xl text-white font-montserrat mt-9 font-semibold'>Sayanggg 🤗💓💕</p>
@@ -56,7 +56,7 @@ const Cake = () => {
                 </motion.p>
             </div>
 
-            <div className={show ? 'block mt-[15rem] px-4' : 'hidden'}>
+            <div className={show ? 'block mt-[15rem] px-6' : 'hidden'}>
                 <motion.p
                     variants={zoomIn(0.5, 0.5)}
                     initial='hidden'
@@ -68,7 +68,7 @@ const Cake = () => {
 
                     Semoga panjang umur, sehat selalu, dilancarkan rezeki nya, dilancarkan segala urusannya, dilancarkan BAB nya, dan lancar semuanyaa ... <br /><br />
 
-                    Semoga segala keinginannya tercapai, dipermudah segala urusannya, dan dapat beguna bagi keluarga, agama, nusa dan bangsa, bumi, tata surya, galaksi, dan alam semesta ... <br /><br />
+                    Semoga segala keinginannya tercapai, dipermudah segala urusannya, dan dapat berguna bagi keluarga, agama, nusa dan bangsa, bumi, tata surya, galaksi, dan alam semesta ... <br /><br />
 
 
                     <b>Aamiin ...</b>
