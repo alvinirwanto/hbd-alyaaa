@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Cake from '../components/Cake'
+import Foto from '../components/Foto'
 import HeroSection from '../components/HeroSection'
 
 export default function Home() {
@@ -12,8 +13,9 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/heart.svg" />
             </Head>
-            <main>
+            <main className='bg-[#0f0f0f] '>
                 <HeroSection />
+                <Foto/>
                 <Cake />
             </main>
         </>

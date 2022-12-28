@@ -52,16 +52,6 @@ body {
   overflow-x: hidden;
 }
 
-.container {
-  position: relative;
-}
-
-.bdayCake {
-  position: relative;
-  left: -100px;
-  top: 100px;
-}
-
 .plate {
   position: absolute;
   width: 242px;
@@ -231,5 +221,11 @@ body {
   }
   to {
     opacity: 0;
+  }
+}
+
+@layer components {
+  li {
+    @apply w-[50vw] xl:w-[20vw] h-[40vh] xl:h-[70vh] flex justify-center items-center whitespace-nowrap p-4 shrink-0;
   }
 }
